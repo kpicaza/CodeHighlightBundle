@@ -1,0 +1,28 @@
+<html>
+    <head>
+        {{ highlight_theme('monokai_sublime') }}
+    </head>
+    <body>
+        Hello {{ name }}!        
+        
+        <pre class="hljs php">
+               echo "Hola mundo";    
+
+
+               class MyClass {
+                   private $foo;
+
+                   public function _construct($foo = null)
+                   {
+                       $this->foo = $foo;
+                   }
+               }
+        </pre>
+
+        <script src="{{ asset('js/jquery.js') }}"></script>
+        <!-- Include all JavaScripts, compiled by Assetic -->
+        <script src="{{ asset('js/bootstrap.js') }}"></script>
+        {{ highlight_init_js() }}
+
+    </body>
+</html>

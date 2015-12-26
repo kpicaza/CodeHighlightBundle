@@ -1,0 +1,11 @@
+{% javascripts '@highlight_js' combine=false %}
+<script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+<script>
+//    hljs.initHighlightingOnLoad();
+    $(document).ready(function () {
+        $('pre.hljs').each(function (i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
+</script>

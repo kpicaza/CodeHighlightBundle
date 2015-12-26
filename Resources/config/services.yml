@@ -1,0 +1,14 @@
+parameters:
+    code_highlight.twig_extension.class: CodeHighlightBundle\Twig\CodeHighlightExtension
+    
+services:
+#    code_highlight.example:
+#        class: CodeHighlightBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    code_highlight.twig_extension:
+        class: %code_highlight.twig_extension.class%
+        arguments: [ @service_container ]
+        public: false
+        tags:
+            - { name: twig.extension }
+            
