@@ -1,5 +1,5 @@
 {
-    "name": "kpicaza/CodeHighlightBundle",
+    "name": "kpicaza/code-highlight-bundle ",
     "description": "Simple way to display highighted code in our content using highlight.js library.",
     "type": "symfony-bundle",
     "license": "MIT",
