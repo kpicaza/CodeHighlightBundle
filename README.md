@@ -11,8 +11,13 @@ Add the following to your composer json:
     "require": {
         ...,
         "components/highlightjs": "^9.0",
+        "kpicaza/code-highlight-bundle": "0.1.x-dev",
         ...
     }
+
+or open console and type
+
+    composer require kpicaza/code-highlight-bundle
 
 Activate bundle in your kernel:
 
