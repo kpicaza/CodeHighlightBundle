@@ -19,7 +19,6 @@
             "kpicaza\\Bundle\\CodeHighlightBundle": ""
         }
     },
-    "target-dir" : "kpicaza/Bundle/CodeHighlightBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
