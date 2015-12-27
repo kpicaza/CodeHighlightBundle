@@ -1,6 +1,6 @@
 <?php
 
-namespace Kpicaza\CodeHighlightBundle\DependencyInjection;
+namespace Kpicaza\Bundle\CodeHighlightBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

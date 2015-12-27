@@ -1,6 +1,6 @@
 <?php
 
-namespace Kpicaza\CodeHighlightBundle;
+namespace Kpicaza\Bundle\CodeHighlightBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
