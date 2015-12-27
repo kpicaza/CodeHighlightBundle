@@ -1,5 +1,5 @@
 parameters:
-    code_highlight.twig_extension.class: CodeHighlightBundle\Twig\CodeHighlightExtension
+    code_highlight.twig_extension.class: Kpicaza\CodeHighlightBundle\Twig\CodeHighlightExtension
     
 services:
 #    code_highlight.example:

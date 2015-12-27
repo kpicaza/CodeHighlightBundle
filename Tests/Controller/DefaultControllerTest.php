@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeHighlightBundle\Tests\Controller;
+namespace Kpicaza\CodeHighlightBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

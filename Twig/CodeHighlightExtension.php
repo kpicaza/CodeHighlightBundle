@@ -2,7 +2,7 @@
 
 // src/AppBundle/Twig/AppExtension.php
 
-namespace CodeHighlightBundle\Twig;
+namespace Kpicaza\CodeHighlightBundle\Twig;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

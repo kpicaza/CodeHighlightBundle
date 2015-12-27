@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeHighlightBundle\Controller;
+namespace Kpicaza\CodeHighlightBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
