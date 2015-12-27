@@ -67,6 +67,10 @@ Now we need to update Assetic configuration to enable js and css from highlight.
                     - %kernel.root_dir%/../vendor/components/highlightjs/styles/github.css
                 output: css/highlight.css
 
+Now we can import files:
+    
+    php app/console assetic:dump
+    php app/console assets:install
 
 ##3. Usage:
 
@@ -113,3 +117,6 @@ Add "hljs" and programming language name as classes to html "pre" tag to highlig
 - 4.1 Adbanced usage documentation
 - 4.2 only add templating service as depency instead of service_container
 - 4.3 tests
+
+##5. Library docs:
+http://highlightjs.readthedocs.org/
