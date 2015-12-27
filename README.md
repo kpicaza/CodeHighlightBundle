@@ -28,7 +28,7 @@ Activate bundle in your kernel:
     {
         $bundles = array(
           ...
-          new CodeHighlightBundle\CodeHighlightBundle(),
+          new Kpicaza\Bundle\CodeHighlightBundle\CodeHighlightBundle(),
           ...
     }
 
@@ -58,7 +58,7 @@ Now we need to update Assetic configuration to enable js and css from highlight.
                 output: js/highlight.js
             # Import wanted themes for highlight see https://highlightjs.org/static/demo/
             # for example I'm going to enable two themes, monokai_sublime and github
-            highlight_sublime_css:
+            highlight_monokai_sublime_css:
                 inputs:
                     - %kernel.root_dir%/../vendor/components/highlightjs/styles/monokai_sublime.css
                 output: css/highlight.css
