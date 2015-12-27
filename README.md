@@ -3,6 +3,8 @@ CodeHighlightBundle
 
 Simple way to display highighted code in our content using highlight.js library.
 
+[![knpbundles.com](http://knpbundles.com/kpicaza/CodeHighlightBundle/badge)](http://knpbundles.com/kpicaza/CodeHighlightBundle)
+
 ##1. Instalation:
 
 Add the following to your composer json:
@@ -17,7 +19,7 @@ Add the following to your composer json:
 
 or open console and type
 
-    composer require kpicaza/code-highlight-bundle
+    composer require kpicaza/code-highlight-bundle=dev-master
 
 Activate bundle in your kernel:
 
