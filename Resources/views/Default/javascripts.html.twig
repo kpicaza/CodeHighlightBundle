@@ -4,7 +4,21 @@
 <script>
 //    hljs.initHighlightingOnLoad();
     $(document).ready(function () {
-        $('pre code.hljs').each(function (i, block) {
+        $('pre code').each(function (i, block) {
+            /*
+             * @see http://highlightjs.readthedocs.org/en/latest
+             * 
+             * hljs
+             *       .configure({
+             *           languages: [
+             *               'html',
+             *               'php',
+             *               'js',
+             *               'twig'
+             *           ]
+             *       });
+             */
+
             hljs.highlightBlock(block);
         });
     });

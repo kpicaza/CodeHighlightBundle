@@ -1,7 +1,7 @@
 CodeHighlightBundle
 ===================
 
-Simple way to display highighted code in our content using highlight.js library.
+Simple way to display highighted code in our content using highlight.js library. Works nice with markdown text inputs.
 
 [![knpbundles.com](http://knpbundles.com/kpicaza/CodeHighlightBundle/badge)](http://knpbundles.com/kpicaza/CodeHighlightBundle)
 
@@ -97,7 +97,7 @@ Add stylesheet and init javascript in your template
 
 Add "hljs" and programming language name as classes to html "pre" tag to highlight content, for example:
 
-    <pre class="hljs php">
+    <pre><code>
         class MyClass {
             private $foo;
 
@@ -107,7 +107,7 @@ Add "hljs" and programming language name as classes to html "pre" tag to highlig
             }
         }
 
-    </pre>
+    </code></pre>
 
 
 ###3.2 Advanced Usage:
@@ -117,6 +117,7 @@ Add "hljs" and programming language name as classes to html "pre" tag to highlig
 - 4.1 Adbanced usage documentation
 - 4.2 only add templating service as depency instead of service_container
 - 4.3 tests
+- 4.4 Avoid text formating issues wysiwyg editors
 
 ##5. Library docs:
 http://highlightjs.readthedocs.org/
